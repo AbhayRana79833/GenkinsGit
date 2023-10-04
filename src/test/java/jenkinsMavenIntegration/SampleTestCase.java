@@ -21,13 +21,13 @@ public class SampleTestCase {
 		if(Launching_browser.contains("Chrome"))
 		{
 		
-		System.setProperty("webdriver.chrome.driver","D:\\Downloads\\Softwares\\browserDrivers\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\Users\mukulrana\Downloads\chromedriver-win64\chromedriver-win64");
 
 		driver = new ChromeDriver();
 		}
 		
 		else if(Launching_browser.contains("Firefox"))
-		{System.setProperty("webdriver.chrome.driver","D:\\Downloads\\Softwares\\browserDrivers\\chromedriver\\chromedriver.exe");
+		{System.setProperty("webdriver.chrome.driver","C:\Users\mukulrana\Downloads\chromedriver-win64\chromedriver-win64");
 
 		driver = new ChromeDriver();
 			
